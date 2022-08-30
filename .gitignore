@@ -1,3 +1,7 @@
+Debug/*
+Debug/Core/*
+Debug/Core/Src/*
+
 # Prerequisites
 *.d
 
