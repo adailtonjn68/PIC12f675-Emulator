@@ -2,7 +2,7 @@
 #define PIC12F675_H_
 
 #include <stdint.h>
-
+#include <stdlib.h>
 
 enum Registers {
 	TMR0 = 0x01,
@@ -135,6 +135,8 @@ void sleep_();
 void sublw();
 void xorlw();
 
-void change_multbanks_registers(CPU_t *cpu, uint8_t f);
+void update_multbanks_registers(CPU_t *cpu, uint8_t f);
+void test_bank(CPU_t *cpu, uint8_t f);
+
 
 #endif // PIC12F675_H_

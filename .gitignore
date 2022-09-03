@@ -1,6 +1,7 @@
 Debug/*
 Debug/Core/*
 Debug/Core/Src/*
+test_c.X.production.hex
 
 # Prerequisites
 *.d
